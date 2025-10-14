@@ -13,8 +13,8 @@ const App = () => {
     <Header/>
     <Nav />
     {/* <WriteMode/> */}
-    {/* <DrawMode/> */}
-    <ShapeMode/>
+    <DrawMode/>
+    {/* <ShapeMode/> */}
     </>
   )
 }
