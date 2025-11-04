@@ -1,35 +1,3 @@
-// import React from 'react'
-
-// const Nav = ({ setMode }) => {
-//   return (
-//     <div className='bg-neutral-800 h-20 flex items-center justify-around text-2xl border-b-1 border-b-emerald-800'>
-//       <button 
-//         onClick={() => setMode("text")} 
-//         className='text-white rounded-2xl bg-green-700 px-4 py-3'
-//       >
-//         Write
-//       </button>
-
-//       <button 
-//         onClick={() => setMode("shapes")} 
-//         className='text-white rounded-2xl bg-green-700 px-4 py-3'
-//       >
-//         Shapes
-//       </button>
-
-//       <button 
-//         onClick={() => setMode("freedraw")} 
-//         className='text-white rounded-2xl bg-green-700 px-4 py-3'
-//       >
-//         Freedraw
-//       </button>
-//     </div>
-//   )
-// }
-
-// export default Nav
-
-
 import React, { useState } from 'react';
 
 const Navigation = ({ activeModule, setActiveModule }) => {
