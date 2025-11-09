@@ -1,1 +1,1 @@
-export { default as DrawMode } from './DrawMode.jsx';
+export { default as DrawMode } from './DrawMode';
