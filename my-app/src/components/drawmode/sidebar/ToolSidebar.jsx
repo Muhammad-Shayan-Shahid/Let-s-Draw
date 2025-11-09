@@ -10,16 +10,16 @@ export const ToolSidebar = (props) => {
 
   return (
     <div style={{ 
-      width: "280px", 
+      width: "180px", 
       backgroundColor: "#1f2937",
       borderRight: "1px solid #374151",
-      overflow: "auto",
       boxShadow: "4px 0 20px rgba(0,0,0,0.3)",
       position: "sticky",
-      top: 0,
-      left: 0,
-      height: "100vh",
-      zIndex: 100
+      top: 10,
+      left: 15,
+      height: "96vh",
+      zIndex: 100,
+      borderRadius: 10
     }}>
       <div style={{ padding: "24px" }}>
         <div style={{ marginBottom: "32px" }}>
@@ -48,7 +48,7 @@ export const ToolSidebar = (props) => {
           <ClearButton clearCanvas={clearCanvas} /> 
         </div>
 
-        <SidebarStats {...props} />
+        {/* <SidebarStats {...props} /> */}
       </div>
     </div>
   );

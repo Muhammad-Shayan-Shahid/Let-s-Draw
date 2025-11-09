@@ -8,8 +8,8 @@ export const ColorSwatches = ({ colors, selectedColor, onColorSelect }) => {
           key={color}
           onClick={() => onColorSelect(color)}
           style={{
-            width: "40px",
-            height: "40px",
+            width: "25px",
+            height: "25px",
             borderRadius: "8px",
             backgroundColor: color,
             border: `3px solid ${selectedColor === color ? "#ec4899" : "#4b5563"}`,

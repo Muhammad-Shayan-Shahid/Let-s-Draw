@@ -20,12 +20,12 @@ const DrawMode = () => {
         <div style={{
           width: "100%",
           height: "100%",
-          overflow: "auto",
+          overflow: "hidden",
           position: "relative"
         }}>
           <DrawingCanvas {...drawingProps} />
         </div>
-        <StatusBar {...drawingProps} />
+        {/* <StatusBar {...drawingProps} /> */}
       </div>
     </div>
   );

@@ -1,20 +1,20 @@
 import React from 'react';
 
-export const ClearButton = ({ clearCanvas }) => {  // Changed from onClear to clearCanvas
+export const ClearButton = ({ clearCanvas }) => {  
   return (
     <button
       onClick={clearCanvas}
       style={{
         width: "100%",
-        padding: "12px 16px",
-        backgroundColor: "#6b7280",
+        padding: "12px 12px",
+        backgroundColor: "#e33333ff",
         color: "white",
         border: "none",
         borderRadius: "8px",
         cursor: "pointer",
-        fontSize: "14px",
+        fontSize: "13px",
         fontWeight: "500",
-        marginBottom: "12px"
+        marginBottom: "20px",
       }}
     >
       🗑️ Clear Canvas

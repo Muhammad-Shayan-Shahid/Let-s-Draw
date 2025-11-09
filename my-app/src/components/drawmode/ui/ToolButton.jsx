@@ -12,7 +12,7 @@ export const ToolButton = ({ active, onClick, icon, label }) => {
         borderRadius: "10px",
         color: active ? "#f9fafb" : "#9ca3af",
         cursor: "pointer",
-        fontSize: "14px",
+        fontSize: "12px",
         fontWeight: "500",
         transition: "all 0.2s ease",
         display: "flex",

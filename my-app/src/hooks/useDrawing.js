@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useState,useEffect} from "react";
 import { useCanvas } from './useCanvas';
 
 export const useDrawing = () => {
@@ -13,6 +13,36 @@ export const useDrawing = () => {
     brushColor, 
     eraserSize
   });
+
+  useEffect(() => {
+    const handleKeyPress = (e) => {
+      // Only trigger if not typing in input fields
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+        return;
+      }
+
+      switch (e.key) {
+        case '1':
+          setTool('brush');
+          e.preventDefault();
+          break;
+        case '2':
+          setTool('eraser');
+          e.preventDefault();
+          break;
+        default:
+          break;
+      }
+    };
+
+    // Add event listener
+    document.addEventListener('keydown', handleKeyPress);
+
+    // Cleanup
+    return () => {
+      document.removeEventListener('keydown', handleKeyPress);
+    };
+  }, []);
 
   return {
     tool,

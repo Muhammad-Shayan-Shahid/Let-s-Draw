@@ -7,8 +7,8 @@ const App = () => {
   // const [mode, setMode] = useState("freedraw");
   return (
     <>
-    <Header/>
-    <Nav />
+    {/* <Header/> */}
+    {/* <Nav /> */}
     <DrawMode/>
     </>
   )
