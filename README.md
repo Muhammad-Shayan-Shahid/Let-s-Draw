@@ -1,4 +1,4 @@
-# 🎨 Let’s Draw – Desktop Painting Application
+# 🎨 Let’s Draw – Desktop Drawing Application
 
 **Let’s Draw** is a simple and fast desktop drawing application built using **React**, **Tailwind CSS**, and **React-Konva**.  
 It allows users to freely draw, erase, pick colors, and adjust brush thickness with a clean and smooth experience.
@@ -53,3 +53,9 @@ It allows users to freely draw, erase, pick colors, and adjust brush thickness w
 Smooth drawing experience using **Canvas-based rendering**.
 
 
+## 👨‍💻 Web App Developer
+**Muhammad Shayan Shahid**  
+📍 Front-End Developer   
+📧 msshahid23052006@gmail.com  
+
+Feel free to collaborate......🤝
