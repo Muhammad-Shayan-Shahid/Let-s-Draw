@@ -32,11 +32,6 @@ It allows users to freely draw, erase, pick colors, and adjust brush thickness w
 - Uses **React-Konva**, which renders shapes using HTML5 Canvas
 - Lightning-fast drawing performance
 
----
-
-Clean, organized, and scalable structure.
-
----
 
 ## 🧰 Technologies Used
 - React
@@ -45,8 +40,7 @@ Clean, organized, and scalable structure.
 - Konva.js
 - Vite
 - HTML5 Canvas
-
----
+  
 
 ## 🧩 How the App Works
 1. User chooses a color
@@ -58,4 +52,4 @@ Clean, organized, and scalable structure.
 
 Smooth drawing experience using **Canvas-based rendering**.
 
----
+
