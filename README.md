@@ -33,3 +33,29 @@ It allows users to freely draw, erase, pick colors, and adjust brush thickness w
 - Lightning-fast drawing performance
 
 ---
+
+Clean, organized, and scalable structure.
+
+---
+
+## 🧰 Technologies Used
+- React
+- Tailwind CSS
+- React-Konva
+- Konva.js
+- Vite
+- HTML5 Canvas
+
+---
+
+## 🧩 How the App Works
+1. User chooses a color
+2. User adjusts brush size
+3. Starts drawing on the canvas using React-Konva
+4. Switch to eraser mode anytime
+5. Adjust eraser thickness
+6. Draw freely like a desktop sketchboard
+
+Smooth drawing experience using **Canvas-based rendering**.
+
+---
