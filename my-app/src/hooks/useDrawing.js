@@ -16,7 +16,6 @@ export const useDrawing = () => {
 
   useEffect(() => {
     const handleKeyPress = (e) => {
-      // Only trigger if not typing in input fields
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
         return;
       }

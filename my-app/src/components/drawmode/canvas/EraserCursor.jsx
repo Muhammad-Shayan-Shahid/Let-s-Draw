@@ -1,29 +1,3 @@
-// import React from "react";
-// import { Circle } from "react-konva";
-
-// const EraserCursor = ({ position, size, isVisible }) => {
-//   if (!isVisible || !position) return null;
-
-//   return (
-//     <Circle
-//       x={position.x}
-//       y={position.y}
-//       radius={size / 2}
-//       stroke="#8b5cf6"
-//       strokeWidth={2}
-//       fill="#ec4899"
-//       dash={[5, 5]}
-//       listening={false}
-//       globalCompositeOperation="source-over"
-//     />
-//   );
-// };
-
-// export default EraserCursor;
-
-
-
-
 import React from "react";
 import { Circle } from "react-konva";
 
@@ -32,7 +6,6 @@ const EraserCursor = ({ position, size, isVisible }) => {
 
   return (
     <>
-      {/* Main eraser area - ALWAYS visible */}
       <Circle
         x={position.x}
         y={position.y}
@@ -45,7 +18,6 @@ const EraserCursor = ({ position, size, isVisible }) => {
         globalCompositeOperation="source-over"
       />
       
-      {/* Outer glow for better visibility */}
       <Circle
         x={position.x}
         y={position.y}
@@ -57,7 +29,6 @@ const EraserCursor = ({ position, size, isVisible }) => {
         globalCompositeOperation="source-over"
       />
       
-      {/* Center dot */}
       <Circle
         x={position.x}
         y={position.y}

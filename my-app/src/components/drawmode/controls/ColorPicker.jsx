@@ -4,7 +4,7 @@ import { BRUSH_COLORS } from '../../../constants/drawing';
 
 export const ColorPicker = ({ selectedColor, onColorChange }) => {
   return (
-    <div style={{ marginBottom: "20px" }}>
+    <div style={{ marginBottom: "5px" }}>
       <label style={{ color: "#d1d5db", fontSize: "14px", fontWeight: "500", marginBottom: "12px", display: "block" }}>
         Brush Color
       </label>

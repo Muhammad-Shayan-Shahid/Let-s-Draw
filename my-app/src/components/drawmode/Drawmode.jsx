@@ -2,7 +2,6 @@ import React from 'react';
 import { useDrawing } from '../../hooks/useDrawing';
 import { ToolSidebar } from './sidebar/ToolSidebar';
 import { DrawingCanvas } from './canvas/DrawingCanvas';
-import { StatusBar } from './ui/StatusBar';
 
 const DrawMode = () => {
   const drawingProps = useDrawing();
@@ -25,7 +24,6 @@ const DrawMode = () => {
         }}>
           <DrawingCanvas {...drawingProps} />
         </div>
-        {/* <StatusBar {...drawingProps} /> */}
       </div>
     </div>
   );

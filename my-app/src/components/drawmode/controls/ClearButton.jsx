@@ -6,7 +6,7 @@ export const ClearButton = ({ clearCanvas }) => {
       onClick={clearCanvas}
       style={{
         width: "100%",
-        padding: "12px 12px",
+        padding: "10px",
         backgroundColor: "#e33333ff",
         color: "white",
         border: "none",
@@ -14,7 +14,6 @@ export const ClearButton = ({ clearCanvas }) => {
         cursor: "pointer",
         fontSize: "13px",
         fontWeight: "500",
-        marginBottom: "20px",
       }}
     >
       🗑️ Clear Canvas

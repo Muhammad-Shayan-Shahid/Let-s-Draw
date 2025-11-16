@@ -2,7 +2,7 @@ import React from 'react';
 
 export const SizeSlider = ({ value, onChange, min, max, label, unit }) => {
   return (
-    <div style={{ marginBottom: "20px" }}>
+    <div style={{ marginBottom: "5px" , }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
         <label style={{ color: "#d1d5db", fontSize: "14px", fontWeight: "500" }}>{label}</label>
         <span style={{ color: "#ec4899", fontSize: "14px", fontWeight: "600" }}>{value}{unit}</span>

@@ -2,7 +2,6 @@ import React from 'react';
 import { ToolSelection } from './ToolSelection';
 import { BrushControls } from './BrushControls';
 import { EraserControls } from './EraserControls';
-import { SidebarStats } from './SidebarStats';
 import { ClearButton } from '../controls/ClearButton';
 
 export const ToolSidebar = (props) => {
@@ -17,12 +16,13 @@ export const ToolSidebar = (props) => {
       position: "sticky",
       top: 10,
       left: 15,
-      height: "96vh",
+      height: "86vh",
       zIndex: 100,
-      borderRadius: 10
+      borderRadius: 10,
+      cursor: "pointer",
     }}>
       <div style={{ padding: "24px" }}>
-        <div style={{ marginBottom: "32px" }}>
+        <div style={{ marginBottom: "5px" }}>
           <h3 style={{ 
             color: "#f9fafb", 
             fontSize: "20px", 
@@ -47,8 +47,6 @@ export const ToolSidebar = (props) => {
         <div style={{ marginBottom: "28px" }}>
           <ClearButton clearCanvas={clearCanvas} /> 
         </div>
-
-        {/* <SidebarStats {...props} /> */}
       </div>
     </div>
   );
