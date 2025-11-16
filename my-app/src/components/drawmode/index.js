@@ -1,1 +1,1 @@
-export { default as DrawMode } from './DrawMode';
+export { default as DrawMode } from './Drawmode';
